@@ -1,0 +1,41 @@
+html {
+    text-align: center;
+    margin: 0px auto;
+}
+
+.container {
+    background-color: #20e9ede5;
+    width: 300px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+h1 {
+    color: white;
+    margin: 50px 30px;
+}
+
+p {
+    color: red;
+    font-size: 15px;
+}
+
+.button {
+    display: block;
+    width: 80px;
+    color: white;
+    padding: 13px 20px;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 0px auto 35px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.button-off {
+    background-color: red;
+}
+
+.button-off:active {
+    background-color: green;
+}
